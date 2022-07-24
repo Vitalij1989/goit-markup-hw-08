@@ -18,10 +18,9 @@ body {
 }
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primari-text-color);
   text-decoration: none;
@@ -61,8 +60,6 @@ span {
 }
 
 .nav-contact {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -109,7 +106,6 @@ span {
 
 .filtr-btn {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   line-height: 1.6;
   text-align: center;
@@ -121,7 +117,6 @@ span {
 }
 .hero-btn {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
