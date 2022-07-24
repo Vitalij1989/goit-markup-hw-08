@@ -10,7 +10,6 @@ body {
   color: var(--primari-text-color);
   background: #ffffff;
 }
-
 /* основний колір  background: #ffffff; */
 /* допоміжний   background: #2F303A; */
 /*  колір акцента background: #2196F3; */
@@ -28,7 +27,7 @@ body {
   text-decoration: none;
 }
 span {
-  color: #2196f3;
+  color: var(--acsent-text-color);
 }
 /* .logo:focus{} */
 /* Навігація */
@@ -82,11 +81,9 @@ span {
   background: #2f303a;
 }
 .hero-title {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     font-family: 'Roboto';
@@ -110,14 +107,10 @@ span {
 
   color: #212121;
 }
-.btr {
+
+.filtr-btn {
     font-family: 'Roboto';
     font-style: normal;
-    background-color: #F5F4FA;
-    color: #212121;
-    cursor: pointer;
-}
-.filtr-btn {
     font-weight: 500;
     line-height: 1.6;
     text-align: center;
@@ -128,12 +121,18 @@ span {
     background-color: #F5F4FA;
 }
 .hero-btn {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
     letter-spacing: 0.06em;
     cursor: pointer;
+    color: #212121;
+    background-color: #F5F4FA;
+
+
 }
 
 .filtr-btn:hover{
@@ -151,6 +150,20 @@ span {
 .hero-btn:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+/*--------------------- Main--------------- */
+
+.main-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.main-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .footer {
