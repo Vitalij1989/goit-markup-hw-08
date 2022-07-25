@@ -22,11 +22,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--primari-text-color);
+  color: var(--acsent-text-color);
   text-decoration: none;
 }
-span {
-  color: var(--acsent-text-color);
+.logo-veb {
+  color: var(--primari-text-color);
 }
 /* .logo:focus{} */
 /* Навігація */
@@ -162,7 +162,7 @@ span {
   background: #2f303a;
   text-decoration: none;
 }
-.footer-logo {
+.logo-footer {
   color: var(--primary-white-color);
   font-family: 'Raleway';
   font-style: normal;
