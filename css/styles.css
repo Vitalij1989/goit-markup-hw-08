@@ -83,7 +83,6 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  font-family: 'Roboto';
   color: var(--primary-white-color);
 }
 .section-title {
@@ -96,12 +95,28 @@ body {
   font-size: 14px;
   color: var(--title-text-color);
 }
-.section-comand {
+.project {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+.comand {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.comand-title {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1, 2;
   font-weight: 500;
-
-  color: var(--primari-text-color);
+}
+.comand-text {
+  font-size: 16px;
+  line-height: 1, 2;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 .filtr-btn {
@@ -127,22 +142,24 @@ body {
   background-color: #f5f4fa;
 }
 
-.filtr-btn:hover {
-  color: var(--primary-white-color);
-  background-color: var(--acsent-text-color);
-}
-.filtr-btn:focus {
-  color: var(--primary-white-color);
-  background-color: var(--acsent-text-color);
-}
+.filtr-btn,
 .hero-btn:hover {
   color: var(--primary-white-color);
   background-color: var(--acsent-text-color);
 }
-.hero-btn:focus {
+.filtr-btn,
+.hero-btn :focus {
   color: var(--primary-white-color);
   background-color: var(--acsent-text-color);
 }
+/* .hero-btn:hover {
+  color: var(--primary-white-color);
+  background-color: var(--acsent-text-color);
+} */
+/* .hero-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--acsent-text-color);
+} */
 /*--------------------- Main--------------- */
 
 .main-title {
@@ -173,7 +190,7 @@ body {
   letter-spacing: 0.03em;
 }
 .footer-item {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
