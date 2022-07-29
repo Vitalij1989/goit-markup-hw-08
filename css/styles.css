@@ -4,7 +4,7 @@
   --acsent-text-color: #2196f3;
   --primary-white-color: #ffffff;
 }
-/* p,
+p,
 h1,
 h2,
 h3,
@@ -16,7 +16,8 @@ h6 {
 ul {
   margin: 0;
   padding-left: 0;
-} */
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primari-text-color);
@@ -28,13 +29,18 @@ body {
 .list {
   list-style: none;
 }
-/* .container {
+.container {
   width: 1170px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   background-color: rgb(46, 219, 69);
-} */
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -43,6 +49,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--acsent-text-color);
   text-decoration: none;
+  margin-right: 93px;
 }
 /* margin-top: 24px;
   margin-bottom: 25px;
@@ -59,6 +66,8 @@ body {
 }
 /*      Навігація    */
 .site-nav {
+  display: flex;
+  column-gap: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -82,6 +91,11 @@ body {
 }
 .current {
   color: var(--acsent-text-color);
+}
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+  column-gap: 50px;
 }
 
 .nav-contact {
@@ -117,6 +131,9 @@ body {
   margin-right: auto;
   width: 696px;
 }
+.btr {
+  display: flex;
+}
 .hero-btn {
   font-family: 'Roboto';
   font-weight: 700;
@@ -133,6 +150,8 @@ body {
 }
 .advantages {
   padding-top: 94px;
+  display: flex;
+  column-gap: 30px;
   /* padding-bottom: 94px; */
 }
 .section-title {
@@ -140,6 +159,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .section-text {
   line-height: 1.71;
@@ -156,6 +176,10 @@ body {
   padding-bottom: 50px;
   text-align: center;
 }
+.img-project {
+  display: flex;
+  column-gap: 30px;
+}
 .comand {
   font-weight: 700;
   font-size: 36px;
@@ -163,6 +187,10 @@ body {
   padding-top: 94px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.comand-list {
+  display: flex;
+  column-gap: 30px;
 }
 .comand-title {
   font-size: 16px;
