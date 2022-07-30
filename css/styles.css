@@ -4,37 +4,38 @@
   --acsent-text-color: #2196f3;
   --primary-white-color: #ffffff;
 }
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-ul {
-  margin: 0;
-  padding-left: 0;
-}
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primari-text-color);
   background: #ffffff;
 }
-/* основний колір  background: #ffffff; */
-/* допоміжний   background: #2F303A; */
-/*  колір акцента background: #2196F3; */
-.list {
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
+
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: rgb(46, 219, 69);
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .header {
   display: flex;
@@ -48,7 +49,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--acsent-text-color);
-  text-decoration: none;
   margin-right: 93px;
 }
 /* margin-top: 24px;
@@ -87,8 +87,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
-  text-decoration: none;
 }
+
 .current {
   color: var(--acsent-text-color);
 }
@@ -104,7 +104,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  text-decoration: none;
 }
 .nav-contact:hover {
   color: var(--acsent-text-color);
@@ -133,6 +132,8 @@ body {
 }
 .btr {
   display: flex;
+  column-gap: 8px;
+  justify-content: center;
 }
 .hero-btn {
   font-family: 'Roboto';
@@ -149,7 +150,6 @@ body {
   height: 50px;
 }
 .advantages {
-  padding-top: 94px;
   display: flex;
   column-gap: 30px;
   /* padding-bottom: 94px; */
@@ -162,9 +162,9 @@ body {
   margin-bottom: 10px;
 }
 .section-text {
-  line-height: 1.71;
   letter-spacing: 0.03em;
   font-size: 14px;
+  line-height: 1.71;
   color: var(--title-text-color);
 }
 .project {
@@ -172,8 +172,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .img-project {
@@ -235,7 +234,12 @@ body {
   background-color: var(--acsent-text-color);
 }
 /*--------------------- Main--------------- */
-
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-basis: calc((100%-60) / 3);
+}
 .main-title {
   font-weight: 700;
   font-size: 18px;
@@ -252,7 +256,6 @@ body {
 
 .footer {
   background: #2f303a;
-  text-decoration: none;
 }
 .logo-footer {
   color: var(--primary-white-color);
@@ -261,7 +264,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.7;
-  text-decoration: none;
   letter-spacing: 0.03em;
 }
 .footer-item {
@@ -269,7 +271,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  text-decoration: none;
   list-style: none;
   font-style: normal;
 }
