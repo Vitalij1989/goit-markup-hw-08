@@ -159,7 +159,6 @@ img {
 .advantages {
   display: flex;
   column-gap: 30px;
-  /* padding-bottom: 94px; */
 }
 .section-title {
   font-size: 14px;
