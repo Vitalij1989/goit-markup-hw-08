@@ -49,16 +49,20 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--acsent-text-color);
-  margin-right: 93px;
 }
 .logo-veb {
   color: var(--primari-text-color);
+  margin-right: 93px;
 }
 /* Навігація */
 .current {
   color: var(--acsent-text-color);
 }
 /*      Навігація    */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -122,7 +126,6 @@ img {
 .hero {
   background: #2f303a;
   text-align: center;
-  min-height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -142,6 +145,7 @@ img {
   display: flex;
   column-gap: 8px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .hero-btn {
   font-family: 'Roboto';
@@ -150,7 +154,7 @@ img {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: var(--primari-text-color);
+  color: var(--primary-white-color);
   background: #188ce8;
   text-align: center;
   width: 216px;
@@ -196,6 +200,11 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.fons {
+  background: #f5f4fa;
 }
 .comand-list {
   display: flex;
@@ -218,8 +227,8 @@ img {
 }
 
 .comand-img {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .hero-btn:hover {
@@ -247,7 +256,6 @@ img {
   cursor: pointer;
   background-color: #f5f4fa;
   border-style: none;
-  margin-bottom: 34px;
 }
 
 .filtr-btn:focus {
@@ -263,6 +271,9 @@ img {
 .main-style {
   padding: 20px 24px;
   border-top: none;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .main-title {
   font-weight: 700;
@@ -282,7 +293,6 @@ img {
 .footer {
   background: #2f303a;
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 .logo-footer {
   color: var(--primary-white-color);
@@ -292,6 +302,7 @@ img {
   font-size: 26px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 
 .address-list {
