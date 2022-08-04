@@ -49,10 +49,12 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--acsent-text-color);
+  margin-right: 93px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .logo-veb {
   color: var(--primari-text-color);
-  margin-right: 93px;
 }
 /* Навігація */
 .current {
@@ -209,6 +211,9 @@ img {
 .comand-list {
   display: flex;
   column-gap: 30px;
+}
+
+.comand-item {
   background: var(--primary-white-color);
 }
 .comand-title {
@@ -291,6 +296,7 @@ img {
   color: var(--title-text-color);
 }
 
+/*      Footer           */
 .footer {
   background: #2f303a;
   padding-top: 60px;
@@ -310,6 +316,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 9px;
+  margin-top: 20px;
 }
 .footer-item {
   font-size: 14px;
