@@ -299,6 +299,20 @@ img {
   color: var(--primary-white-color);
   background-color: var(--acsent-text-color);
 }
+
+.clients {
+  display: flex;
+  gap: 30px;
+  color: var(--title-text-color);
+}
+
+.clients-link {
+  color: var(--title-text-color);
+}
+.clients-icon {
+  fill: currentColor;
+}
+
 /*--------------------- Main--------------- */
 .galeri {
   display: flex;
