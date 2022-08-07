@@ -139,7 +139,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../img/fons\ hero.jpg);
+    url(../img/fons-hero.jpg);
   background-color: #c4c4c4;
   background-position: center;
   background-repeat: no-repeat;
@@ -256,6 +256,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 
 .comand-social {
@@ -277,16 +278,21 @@ img {
   fill: #afb1b8;
 }
 
-.social-icon {
-  fill: #afb1b8;
+.social-link:hover {
+  fill: var(--primary-white-color);
+  background-color: var(--acsent-text-color);
+}
 
+.social-link:focus {
+  fill: var(--primary-white-color);
+  background-color: var(--acsent-text-color);
+}
+
+.social-icon {
   height: 20px;
   width: 20px;
 }
 
-.social-icon:hofer {
-  fill: var(--acsent-text-color);
-}
 .comand-img {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -315,10 +321,10 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: #afb1b8;
+  fill: #afb1b8;
 }
 .clients-icon {
-  fill: currentColor;
+  fill: #afb1b8;
 }
 
 /*--------------------- Main--------------- */
@@ -401,6 +407,12 @@ img {
   margin-top: 20px;
 }
 .join {
+  color: var(--primary-white-color);
+  margin-left: 90px;
+}
+
+.social-link {
+  background-color: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
 }
 
