@@ -400,6 +400,13 @@ img {
   gap: 9px;
   margin-top: 20px;
 }
+.join {
+  color: var(--primary-white-color);
+}
+
+.join-social-icon {
+  color: var(--primary-white-color);
+}
 .footer-item {
   font-size: 14px;
   line-height: 1.14;
@@ -407,15 +414,19 @@ img {
   color: var(--title-text-color);
   font-style: normal;
 }
+
 .map {
   color: var(--primary-white-color);
 }
+
 .footer-item:focus {
   color: var(--acsent-text-color);
 }
+
 .footer-item:hover {
   color: var(--acsent-text-color);
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
