@@ -409,14 +409,26 @@ img {
   margin-left: 90px;
 }
 
-.social-link {
+.join-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  fill: var(--primary-white-color);
   background-color: rgba(255, 255, 255, 0.1);
-  color: var(--primary-white-color);
 }
 
-.join-social-icon {
+.join-social-link:hover {
   color: var(--primary-white-color);
+  background-color: var(--acsent-text-color);
 }
+
+.join-social-link::focus {
+  color: var(--acsent-text-color);
+}
+
 .footer-item {
   font-size: 14px;
   line-height: 1.14;
