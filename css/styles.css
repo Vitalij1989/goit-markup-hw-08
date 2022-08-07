@@ -196,7 +196,7 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 50px;
 }
 .section-text {
@@ -266,8 +266,6 @@ img {
   gap: 10px;
 }
 
-.social-item {
-}
 .social-link {
   display: flex;
   justify-content: center;
