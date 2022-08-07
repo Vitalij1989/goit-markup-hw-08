@@ -274,7 +274,7 @@ img {
   height: 44px;
   width: 44px;
   border-radius: 50%;
-  fill: var(--icon-color);
+  fill: #afb1b8;
 }
 
 .social-icon {
@@ -307,7 +307,15 @@ img {
 }
 
 .clients-link {
-  color: var(--title-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: transparent;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
 }
 .clients-icon {
   fill: currentColor;
@@ -369,6 +377,11 @@ img {
 .footer {
   background: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-box {
+  display: flex;
+  align-items: baseline;
 }
 .logo-footer {
   color: var(--primary-white-color);
