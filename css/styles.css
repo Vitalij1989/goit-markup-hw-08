@@ -458,9 +458,7 @@ img {
   background: rgba(33, 150, 243, 0.9);
 
   color: var(--primary-white-color);
-  transition-property: opacity, transform;
-  transition-duration: var(--timing);
-  transition-timing-function: var(--cubic);
+  transition-property: opacity var(--timing) var(--cubic), transform var(--timing) var(--cubic);
 }
 
 .galeri-link:hover,
@@ -522,16 +520,10 @@ img {
   border-radius: 50%;
   fill: var(--primary-white-color);
   background-color: rgba(255, 255, 255, 0.1);
-  transition-property: fill, background-color;
-  transition-duration: var(--timing);
-  transition-timing-function: var(--cubic);
+  transition-property: fill var(--timing) var(--cubic), background-color var(--timing) var(--cubic);
 }
 
-.join-social-link:hover {
-  color: var(--primary-white-color);
-  background-color: var(--acsent-text-color);
-}
-
+.join-social-link:hover,
 .join-social-link:focus {
   color: var(--primary-white-color);
   background-color: var(--acsent-text-color);
@@ -547,9 +539,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   font-style: normal;
-  transition-property: color;
-  transition-duration: var(--timing);
-  transition-timing-function: var(--cubic);
+  transition-property: color var(--timing) var(--cubic);
 }
 
 .map {
@@ -588,6 +578,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  transition-property: transform var(--timing) var(--cubic), opacity var(--timing) var(--cubic);
 }
 
 .modal-close {
@@ -600,18 +591,22 @@ img {
   background: var(--primary-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-}
-.icon-close {
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+/* .icon-close {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
-.modal-close:focus,
+/* .modal-close:focus,
 .modal-close:hover {
   fill: var(--acsent-text-color);
-}
+} */
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
