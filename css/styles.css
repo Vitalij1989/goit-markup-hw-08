@@ -116,7 +116,7 @@ img {
   display: block;
   width: 100%;
   height: 5px;
-  color: #e90606;
+  background-color: var(--acsent-text-color);
   left: 0;
   bottom: -1px;
   position: absolute;
@@ -376,15 +376,13 @@ img {
   flex-wrap: wrap;
   gap: 30px;
   flex-basis: calc((100%-60px) / 3);
+  transition-property: box-shadom, opacity, transform;
+  transition-duration: var(--timing);
+  transition-timing-function: var(--cubic);
 }
-
-.galeri-link:hover,
-.galeri-link:focus {
+.galeri-link {
   display: block;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .filtr-btn {
   font-weight: 500;
   line-height: 1.6;
@@ -439,37 +437,41 @@ img {
   height: 404px;
 }
 .galeri-desc {
-  display: flex;
   position: relative;
   overflow: hidden;
 }
 
 .galeri-desc-text {
-  display: flex;
-  align-items: center;
   position: absolute;
+  top: 0;
+  left: 0;
+
   width: 100%;
   height: 100%;
   margin: 0;
-  padding-left: 23px;
-  padding-right: 23px;
+  padding: 63px 24px;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  transform: translateY(100%);
+  transform: translateY(101%);
+  opacity: 0;
   background: rgba(33, 150, 243, 0.9);
 
   color: var(--primary-white-color);
+  transition-property: opacity, transform;
+  transition-duration: var(--timing);
+  transition-timing-function: var(--cubic);
 }
 
-.galeri-link:focus,
-.galeri-link:hover {
-  position: relative;
-  display: block;
+.galeri-link:hover,
+.galeri-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-
-  transform: translateY(0%);
+}
+.galeri-link:focus .galeri-desc-text,
+.galeri-link:hover .galeri-desc-text {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /*      Footer           */
@@ -604,6 +606,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.modal-close:focus,
+.modal-close:hover {
+  fill: var(--acsent-text-color);
 }
 .backdrop.is-hidden {
   opacity: 0;
