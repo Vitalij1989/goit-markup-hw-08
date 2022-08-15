@@ -355,7 +355,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
-  transition-property: color, border;
+  transition-property: color, border, fill;
   transition-duration: var(--timing);
   transition-timing-function: var(--cubic);
 }
