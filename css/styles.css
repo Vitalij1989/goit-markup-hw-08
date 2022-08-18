@@ -458,7 +458,8 @@ img {
   background: rgba(33, 150, 243, 0.9);
 
   color: var(--primary-white-color);
-  transition: opacity var(--timing) var(--cubic), transform var(--timing) var(--cubic);
+  transition: opacity var(--timing) var(--cubic), transform var(--timing) var(--cubic),
+    box-shadow var(--timing) var(--cubic);
 }
 
 .galeri-link:hover,
