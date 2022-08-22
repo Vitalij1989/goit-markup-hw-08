@@ -651,10 +651,6 @@ img {
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
-.modal-form-imput:focus + .modal-icon {
-  fill: var(--accent-color);
-  transition: fill var(--cubic) var(--timing);
-}
 .modal-form-imput {
   margin-top: 4px;
   padding-left: 42px;
@@ -670,6 +666,11 @@ img {
   border: 1px solid var(--acsent-text-color);
   outline: none;
   fill: var(--acsent-text-color);
+}
+
+.modal-form-imput:focus + .modal-icon {
+  fill: var(--accent-color);
+  transition: fill var(--cubic) var(--timing);
 }
 
 .modal-coment-last {
