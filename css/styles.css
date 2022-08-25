@@ -479,10 +479,16 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-box {
   display: flex;
   align-items: baseline;
 }
+
+.contacts {
+  flex-grow: 1;
+}
+
 .logo-footer {
   color: var(--primary-white-color);
   font-family: 'Raleway';
@@ -501,7 +507,8 @@ img {
 }
 .join {
   color: var(--primary-white-color);
-  margin-left: 90px;
+  margin-left: 70px;
+  display: inline-block;
 }
 
 .join-title {
@@ -554,6 +561,20 @@ img {
 .footer-item:hover {
   color: var(--acsent-text-color);
 }
+
+.subscription {
+  align-items: flex-end;
+  margin-left: 93px;
+  color: var(--primary-white-color);
+}
+
+.subscription-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
 .subscription-form {
   display: flex;
   width: 570px;
@@ -568,7 +589,6 @@ img {
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   width: 100%;
-  margin-left: 12px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
@@ -709,7 +729,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   margin-top: 20px;
   cursor: pointer;
 }
@@ -739,12 +759,12 @@ img {
   transition: background-color var(--timing) var(--cubic);
 }
 .checkbox-icon-svg {
-  fill: transparent;
+  fill: var(--primary-white-color);
   transition: fill var(--timing) var(--cubic);
 }
-.checkbox-icon:checked + .checkbox-icon-svg {
+.modal-checkbox-imput:checked + .checkbox-icon {
   border-color: transparent;
-  background-color: var(--accent-color);
+  background-color: var(--acsent-text-color);
   fill: var(--primary-white-color);
 }
 
