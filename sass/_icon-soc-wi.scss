@@ -1,0 +1,28 @@
+.comand-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+  transition: fill var(--timing) var(--cubic), background-color var(--timing) var(--cubic);
+}
+
+.social-link:hover,
+.social-link:focus {
+  fill: var(--primary-white-color);
+  background-color: var(--acsent-text-color);
+}
+
+.social-icon {
+  height: 20px;
+  width: 20px;
+}
