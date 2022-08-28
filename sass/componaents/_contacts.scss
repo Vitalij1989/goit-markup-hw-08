@@ -1,0 +1,20 @@
+.nav-contact {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  transition: color var(--timing) var(--cubic);
+}
+
+.nav-contact:hover,
+.nav-contact:focus {
+  color: var(--acsent-text-color);
+}
+
+.nav-contact .icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

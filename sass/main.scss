@@ -1,11 +1,21 @@
-@import './header';
-@import './hero';
-@import './advantages';
-@import './work';
-@import './comands';
-@import './icon-soc-wi';
-@import './_clients';
-@import './_filtr';
+@import './utils/variables';
+@import './base/commond-styles';
+@import './componaents/section';
+@import './componaents/conteiner';
+@import './lajout/header';
+@import './componaents/logo';
+@import './componaents/site-nav';
+@import './componaents/contacts';
+@import './lajout/hero';
+@import './lajout/advantages';
+@import './lajout/comands';
 
-@import './_galeri';
-@import './_footer';
+@import './lajout/work';
+
+@import './lajout/icon-soc-wi';
+@import './lajout/clients';
+@import './lajout/filtr';
+
+@import './lajout/galeri';
+@import './lajout/footer';
+@import './lajout/backdrop';
