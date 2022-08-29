@@ -12,35 +12,35 @@
   align-items: center;
 }
 
-.site-nav {
-  display: flex;
-  align-items: center;
+// .site-nav {
+//   display: flex;
+//   align-items: center;
 
-  column-gap: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  margin-left: 93px;
-}
+//   column-gap: 50px;
+//   font-family: 'Roboto', sans-serif;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.02em;
+//   margin-left: 93px;
+// }
 
-.site-nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primari-text-color);
-  display: block;
-  padding: 32px 0;
-  transition: color var(--timing) var(--cubic);
-  position: relative;
-}
+// .site-nav-link {
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.02em;
+//   color: var(--primari-text-color);
+//   display: block;
+//   padding: 32px 0;
+//   transition: color var(--timing) var(--cubic);
+//   position: relative;
+// }
 
-.site-nav-link:hover,
-.site-nav-link:focus {
-  color: var(--acsent-text-color);
-}
+// .site-nav-link:hover,
+// .site-nav-link:focus {
+//   color: var(--acsent-text-color);
+// }
 .auth-nav {
   display: flex;
   margin-left: auto;
@@ -62,23 +62,23 @@
   position: absolute;
 }
 
-.nav-contact {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-  transition: color var(--timing) var(--cubic);
-}
+// .nav-contact {
+//   display: flex;
+//   align-items: center;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.02em;
+//   color: var(--title-text-color);
+//   transition: color var(--timing) var(--cubic);
+// }
 
-.nav-contact:hover,
-.nav-contact:focus {
-  color: var(--acsent-text-color);
-}
+// .nav-contact:hover,
+// .nav-contact:focus {
+//   color: var(--acsent-text-color);
+// }
 
-.nav-contact .icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
+// .nav-contact .icon {
+//   margin-right: 10px;
+//   fill: currentColor;
+// }
