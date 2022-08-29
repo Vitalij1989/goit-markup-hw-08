@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -31,7 +31,7 @@
   justify-content: center;
   margin-bottom: 50px;
 }
-.hero-btn {
+.hero__btn {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
@@ -47,7 +47,7 @@
   border-radius: 4px;
   transition: background-color var(--timing) var(--cubic);
 }
-.hero-btn:hover,
-.hero-btn :focus {
+.hero__btn:hover,
+.hero__btn :focus {
   background-color: var(--acsent-text-color);
 }

@@ -4,7 +4,7 @@
   color: var(--title-text-color);
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,13 +17,13 @@
   transition-duration: var(--timing);
   transition-timing-function: var(--cubic);
 }
-.clients-link {
+.clients__link {
   fill: currentColor;
   border-color: currentColor;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--acsent-text-color);
   border-color: var(--acsent-text-color);
 }

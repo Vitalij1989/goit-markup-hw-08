@@ -1,11 +1,11 @@
-.comand-social {
+.comand__social {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.social-link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,13 +16,13 @@
   transition: fill var(--timing) var(--cubic), background-color var(--timing) var(--cubic);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social__link:hover,
+.social__link:focus {
   fill: var(--primary-white-color);
   background-color: var(--acsent-text-color);
 }
 
-.social-icon {
+.social__icon {
   height: 20px;
   width: 20px;
 }
