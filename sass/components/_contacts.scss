@@ -1,4 +1,4 @@
-.nav-contact {
+.auth-nav__link {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -9,12 +9,12 @@
   transition: color var(--timing) var(--cubic);
 }
 
-.nav-contact:hover,
-.nav-contact:focus {
+.auth-nav__link:hover,
+.auth-nav__link:focus {
   color: var(--acsent-text-color);
 }
 
-.nav-contact .icon {
+.auth-nav__link .auth-nav__icon {
   margin-right: 10px;
   fill: currentColor;
 }

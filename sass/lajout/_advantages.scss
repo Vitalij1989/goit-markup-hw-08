@@ -2,7 +2,7 @@
   display: flex;
   column-gap: 30px;
 }
-.features__picture {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
   border-radius: 4px;
   background-color: #f5f4fa;
 }
-.section__title {
+.advantages__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -18,7 +18,7 @@
   margin-bottom: 20px;
   margin-top: 30px;
 }
-.section__text {
+.advantages__text {
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;

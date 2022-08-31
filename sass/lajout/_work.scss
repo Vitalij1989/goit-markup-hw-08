@@ -1,20 +1,12 @@
 .project {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.ptoject__list {
-  position: relative;
-}
-
-.project__img {
   display: flex;
   column-gap: 30px;
 }
+
+.ptoject__item {
+  position: relative;
+}
+
 .project__text {
   display: flex;
   align-items: center;

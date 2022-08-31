@@ -1,16 +1,7 @@
-.comand {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-
-.fons {
+.section__azer-background {
   background: #f5f4fa;
 }
-.comand__list {
+.comand {
   display: flex;
   column-gap: 30px;
 }
@@ -34,7 +25,7 @@
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
-.comand__img {
+.comand__box {
   padding-top: 30px;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),

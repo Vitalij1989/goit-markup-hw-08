@@ -27,11 +27,11 @@
 .site-nav__link:focus {
   color: var(--acsent-text-color);
 }
-.current {
+.site-nav__link--current {
   color: var(--acsent-text-color);
 }
 
-.current::after {
+.site-nav__link--current::after {
   content: '';
   display: block;
   width: 100%;
