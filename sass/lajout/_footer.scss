@@ -72,18 +72,13 @@
   color: var(--title-text-color);
   font-style: normal;
   transition: color var(--timing) var(--cubic);
+  &:focus, &:hover: {
+    color: var(--acsent-text-color);
+  }
 }
 
 .map {
   color: var(--primary-white-color);
-}
-
-.footer-item:focus {
-  color: var(--acsent-text-color);
-}
-
-.footer-item:hover {
-  color: var(--acsent-text-color);
 }
 
 .subscription {
@@ -139,8 +134,8 @@
   margin-left: 12px;
   cursor: pointer;
   transition: background-color var(--timing) var(--cubic);
-}
-.button:focus,
-.button:hover {
-  background-color: var(--acsent-text-color);
+  &:focus,
+  &:hover {
+    background-color: var(--acsent-text-color);
+  }
 }

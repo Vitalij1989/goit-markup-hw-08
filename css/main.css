@@ -59,6 +59,10 @@ img {
   padding-top: 0;
 }
 
+.section__azer-background {
+  background: #f5f4fa;
+}
+
 .section__title {
   font-weight: 700;
   font-size: 36px;
@@ -66,13 +70,6 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
-}
-
-.section-text {
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--title-text-color);
 }
 
 .container {
@@ -158,16 +155,13 @@ img {
   transition: color var(--timing) var(--cubic);
   position: relative;
 }
-
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--acsent-text-color);
 }
 
 .site-nav__link--current {
   color: var(--acsent-text-color);
 }
-
 .site-nav__link--current::after {
   content: "";
   display: block;
@@ -190,12 +184,9 @@ img {
   color: var(--title-text-color);
   transition: color var(--timing) var(--cubic);
 }
-
-.auth-nav__link:hover,
-.auth-nav__link:focus {
+.auth-nav__link:hover, .auth-nav__link:focus {
   color: var(--acsent-text-color);
 }
-
 .auth-nav__link .auth-nav__icon {
   margin-right: 10px;
   fill: currentColor;
@@ -288,10 +279,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--title-text-color);
-}
-
-.section__azer-background {
-  background: #f5f4fa;
 }
 
 .comand {
@@ -402,18 +389,13 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
+  fill: currentColor;
+  border-color: currentColor;
   transition: color, border, fill;
   transition-duration: var(--timing);
   transition-timing-function: var(--cubic);
 }
-
-.clients__link {
-  fill: currentColor;
-  border-color: currentColor;
-}
-
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   fill: var(--acsent-text-color);
   border-color: var(--acsent-text-color);
 }
@@ -434,9 +416,7 @@ img {
   transition-duration: var(--timing);
   transition-timing-function: var(--cubic);
 }
-
-.filtr-btn:focus,
-.filtr-btn:hover {
+.filtr-btn:focus, .filtr-btn:hover {
   color: var(--primary-white-color);
   background-color: var(--acsent-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);

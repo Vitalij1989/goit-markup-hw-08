@@ -48,18 +48,17 @@
 }
 .current {
   color: var(--acsent-text-color);
-}
-
-.current::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--acsent-text-color);
-  left: 0;
-  bottom: -1px;
-  position: absolute;
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--acsent-text-color);
+    left: 0;
+    bottom: -1px;
+    position: absolute;
+  }
 }
 
 // .nav-contact {

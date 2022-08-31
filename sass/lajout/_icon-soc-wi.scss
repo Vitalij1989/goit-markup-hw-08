@@ -14,12 +14,11 @@
   border-radius: 50%;
   fill: #afb1b8;
   transition: fill var(--timing) var(--cubic), background-color var(--timing) var(--cubic);
-}
-
-.social__link:hover,
-.social__link:focus {
-  fill: var(--primary-white-color);
-  background-color: var(--acsent-text-color);
+  &:hover,
+  &:focus {
+    fill: var(--primary-white-color);
+    background-color: var(--acsent-text-color);
+  }
 }
 
 .social__icon {

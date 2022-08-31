@@ -46,8 +46,8 @@
   border: none;
   border-radius: 4px;
   transition: background-color var(--timing) var(--cubic);
-}
-.hero__btn:hover,
-.hero__btn :focus {
-  background-color: var(--acsent-text-color);
+  &:hover,
+  & :focus {
+    background-color: var(--acsent-text-color);
+  }
 }

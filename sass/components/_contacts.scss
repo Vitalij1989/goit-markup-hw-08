@@ -7,14 +7,12 @@
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   transition: color var(--timing) var(--cubic);
-}
-
-.auth-nav__link:hover,
-.auth-nav__link:focus {
-  color: var(--acsent-text-color);
-}
-
-.auth-nav__link .auth-nav__icon {
-  margin-right: 10px;
-  fill: currentColor;
+  &:hover,
+  &:focus {
+    color: var(--acsent-text-color);
+  }
+  & .auth-nav__icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
 }
