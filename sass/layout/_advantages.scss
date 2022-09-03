@@ -1,6 +1,17 @@
 .advantages {
-  display: flex;
-  column-gap: 30px;
+  @include for-size(tablet-only) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+      }
+
+  @include for-size(desktop) {
+    display: flex;
+    column-gap: 30px;
+    
+      }
+
 }
 .features__box {
   display: flex;

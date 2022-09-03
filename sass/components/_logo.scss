@@ -5,8 +5,13 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--acsent-text-color);
-  margin-bottom: 20px;
-  margin-top: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+  @include for-size(desktop) {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    }
 }
 .logo__veb {
   color: var(--primari-text-color);

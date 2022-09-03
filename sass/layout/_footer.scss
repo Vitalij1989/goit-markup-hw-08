@@ -53,12 +53,11 @@
   fill: var(--primary-white-color);
   background-color: rgba(255, 255, 255, 0.1);
   transition: fill var(--timing) var(--cubic), background-color var(--timing) var(--cubic);
-}
-
-.join-social-link:hover,
-.join-social-link:focus {
-  color: var(--primary-white-color);
-  background-color: var(--acsent-text-color);
+  &:hover,
+  &:focus {
+    color: var(--primary-white-color);
+    background-color: var(--acsent-text-color);
+  }
 }
 
 .footer-adress {
@@ -72,7 +71,8 @@
   color: var(--title-text-color);
   font-style: normal;
   transition: color var(--timing) var(--cubic);
-  &:focus, &:hover: {
+  &:hover,
+  &:focus {
     color: var(--acsent-text-color);
   }
 }

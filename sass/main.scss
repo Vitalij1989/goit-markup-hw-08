@@ -1,21 +1,25 @@
 @import './utils/variables';
 @import './base/commond-styles';
+@import './utils/mixim';
+
 @import './components/section';
 @import './components/conteiner';
-@import './lajout/header';
+@import './layout/header';
 @import './components/logo';
+@import './components/mobile-menu';
+
 @import './components/site-nav';
 @import './components/contacts';
-@import './lajout/hero';
-@import './lajout/advantages';
-@import './lajout/comands';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/comands';
 
-@import './lajout/work';
+@import './layout/work';
 
-@import './lajout/icon-soc-wi';
-@import './lajout/clients';
-@import './lajout/filtr';
+@import './layout/icon-soc-wi';
+@import './layout/clients';
+@import './layout/filtr';
 
-@import './lajout/galeri';
-@import './lajout/footer';
-@import './lajout/backdrop';
+@import './layout/galeri';
+@import './layout/footer';
+@import './layout/backdrop';

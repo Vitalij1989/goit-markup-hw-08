@@ -24,7 +24,15 @@ img {
   min-width: 100%;
   height: auto;
 }
-
+header,
+section,
+footer,
+.backdrop {
+  display: none;
+}
+.block {
+  display: block;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
