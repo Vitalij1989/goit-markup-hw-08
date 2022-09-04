@@ -1,10 +1,27 @@
 .comand {
   display: flex;
-  column-gap: 30px;
-}
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 
+  @include for-size(tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    @include for-size(decstop) {
+      flex-wrap:nowrap;
+  
+    }
+  
+}
+}
 .comand__item {
   background: var(--primary-white-color);
+
+  @include for-size(tablet) {
+    width: calc(50% - 15px);
+
+  }
 }
 .comand__title {
   font-size: 16px;
