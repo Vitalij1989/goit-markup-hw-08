@@ -9,3 +9,7 @@
   transform: translateX(100%);
   transition: transform var(--cubic) var(--timing);
 }
+
+.is-open {
+  transform: translateX(0);
+}

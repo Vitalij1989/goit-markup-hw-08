@@ -5,13 +5,14 @@
   flex-wrap: wrap;
   justify-content: center;
   color: var(--title-text-color);
+  
 }
 
 .clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(50%-15px);
+  width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;

@@ -7,21 +7,28 @@
   @include for-size(tablet) {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    @include for-size(decstop) {
-      flex-wrap:nowrap;
-  
+    gap: 30px;}
+
+  @include for-size(desktop) {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 30px;
+
     }
   
 }
-}
+
 .comand__item {
   background: var(--primary-white-color);
 
   @include for-size(tablet) {
     width: calc(50% - 15px);
+  }
+  @include for-size(desktop) {
+    width: calc(25% - 15px);
 
   }
+
 }
 .comand__title {
   font-size: 16px;

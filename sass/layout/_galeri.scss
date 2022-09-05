@@ -2,11 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  // flex-basis: calc((100%-60px) / 3);
   transition: box-shadom, opacity, transform;
   transition-duration: var(--timing);
   transition-timing-function: var(--cubic);
+
+  @include for-size(tablet) {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+
+
 }
+
 .galeri-link {
   display: block;
   &:hover,
@@ -15,7 +21,7 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
   &:focus .galeri-desc-text,
-  & .galeri-desc-text {
+  &:hover .galeri-desc-text {
     opacity: 1;
     transform: translateY(0);
   }
@@ -45,8 +51,20 @@
 }
 
 .galeri-item {
-  width: 370px;
+  width: 450px;
   height: 404px;
+
+  @include for-size(tablet) {
+    width: 354px;
+    height: 404px;
+  
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  @include for-size(deckstop) {
+    width: 370px;
+    height: 404px;
+    }
+  
 }
 .galeri-desc {
   position: relative;

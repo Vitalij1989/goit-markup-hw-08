@@ -22,14 +22,12 @@
   <body>
     <header class="header block">
       <div class="container header__container">
+        <a href="https://vitalij1989.github.io/goit-markup-hw-07/" class="logo"
+        >Web<span class="logo__veb">Studio</span></a>
+
         <nav class="navigation">
-          <a href="https://vitalij1989.github.io/goit-markup-hw-07/" class="logo"
-            >Web<span class="logo__veb">Studio</span></a
-          >
-                      </nav>
-<button type="button">
-  x
-</button>
+           </nav>
+              <button type="button" class="modal-open">open</button>
           <div class="mobile-menu">      
            <ul class="site-nav">
             <li><a href="./index.html" class="site-nav__link site-nav__link--current">Студія</a></li>
@@ -54,6 +52,12 @@
             >
           </li>
             </ul>
+            <button type="button" class="modal-close">         
+               <svg class="icon-close" width="18" height="18">
+              <use href="./img/symbol-defs.svg#icon-close-black"></use>
+            </svg>
+  </button>
+
           </div>
     </header>
     <main>
@@ -323,7 +327,7 @@
         </div>
       </section>
     </main>
-    <footer id="footer" class="footer section">
+    <footer id="footer" class="footer section block">
       <div class="container footer-box">
         <div class="footer-contacts">
           <a href="http://127.0.0.1:5500/index.html" class="logo"
@@ -394,7 +398,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden block" data-modal>
       <div class="modal">
         <form class="modal-form">
           <h2 class="form-title section__title">Залиште свої дані, ми вам передзвонимо</h2>
@@ -442,5 +446,7 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+
   </body>
 </html>
