@@ -24,5 +24,11 @@
 .header__container {
   display: flex;
   align-items: center;
+
+  @include for-size(mobile-only) {
   justify-content: space-between;
+}
+
+
+
 }
