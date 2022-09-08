@@ -12,8 +12,12 @@
     background-color: var(--primary-white-color);
     transform: translateX(100%);
     transition: transform var(--cubic) var(--timing);
-      }
-
+  }
+  @include for-size(tablet) {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 .is-open {
@@ -36,10 +40,9 @@
   justify-content: center;
 }
 
-
-.modal-open, .mobile-menu-close{
-  @include for-size(tablet){
+.modal-open,
+.mobile-menu-close {
+  @include for-size(tablet) {
     display: none;
   }
-
 }
