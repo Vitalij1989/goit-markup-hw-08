@@ -5,12 +5,12 @@
   @include for-size(desktop) {
     padding-top: 94px;
     padding-bottom: 94px;
-  
-      }
+  }
 }
 
 .section-section--ptop0 {
   padding-top: 0;
+  padding-bottom: 0;
 }
 .section__azer-background {
   background: #f5f4fa;
@@ -27,8 +27,7 @@
   @include for-size(decstop) {
     font-size: 36px;
     line-height: 1.17;
-    }
-  
+  }
 }
 // .section-text {
 //   letter-spacing: 0.03em;

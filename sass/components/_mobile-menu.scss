@@ -46,3 +46,26 @@
     display: none;
   }
 }
+.mobile-soc {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.mobile-soc-link {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+
+  color: var(--acsent-text-color);
+  &:not(:last-child)::after {
+    content: '';
+    height: 22px;
+    border-right: 1px solid var(--acsent-text-color);
+  }
+  @include for-size(tablet) {
+    display: none;
+  }
+}
