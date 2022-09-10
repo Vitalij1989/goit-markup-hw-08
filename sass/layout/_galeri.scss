@@ -5,12 +5,12 @@
   transition: box-shadom, opacity, transform;
   transition-duration: var(--timing);
   transition-timing-function: var(--cubic);
-
   @include for-size(tablet) {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  @include for-size(deckstop) {
     flex-basis: calc((100% - 60px) / 3);
   }
-
-
 }
 
 .galeri-link {
@@ -51,20 +51,18 @@
 }
 
 .galeri-item {
-  width: 450px;
-  height: 404px;
+  width: 100%;
+  height: 100%;
 
   @include for-size(tablet) {
     width: 354px;
-    height: 404px;
-  
+
     flex-basis: calc((100% - 60px) / 3);
   }
   @include for-size(deckstop) {
     width: 370px;
     height: 404px;
-    }
-  
+  }
 }
 .galeri-desc {
   position: relative;

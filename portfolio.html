@@ -23,17 +23,23 @@
   <body>
     <header class="header block">
       <div class="container header__container">
+        <a href="" class="logo"
+        >Web<span class="logo__veb">Studio</span></a>
+
         <nav class="navigation">
-          <a href="https://vitalij1989.github.io/goit-markup-hw-07/" class="logo"
-            >Web<span class="logo__veb">Studio</span></a
-          >
-          <ul class="site-nav">
-            <li><a href="./index.html" class="site-nav__link">Студія</a></li>
+           </nav>
+              <button type="button" class="modal-open" >
+                              <svg class="auth-nav__icon" width="40" height="40">
+                <use href="./img/symbol-defs.svg#icon-burger"></use>
+                  </svg>
+              </button>
+          <div class="mobile-menu">      
+           <ul class="site-nav">
+            <li><a href="./index.html" class="site-nav__link ">Студія</a></li>
             <li><a href="./portfolio.html" class="site-nav__link site-nav__link--current">Портфоліо</a></li>
-            <li><a href="" class="site-nav__link">Контакти</a></li>
-          </ul>
-        </nav>
-        <ul class="auth-nav">
+            <li><a href="#footer" class="site-nav__link">Контакти</a></li>
+            </ul>
+           <ul class="auth-nav">
           <li>
             <a href="mailto:info@devstudio.com" class="auth-nav__link">
               <svg class="auth-nav__icon" width="16" height="12">
@@ -43,15 +49,36 @@
             >
           </li>
           <li>
-            <a href="tel:+30961111111" class="auth-nav__link">
+            <a href="tel:+30961111111" class="auth-nav__link mobile-color">
               <svg class="auth-nav__icon" width="10" height="16">
                 <use href="./img/symbol-defs.svg#icon-smartphone"></use>
-              </svg>
-              +30 96 111 11 11</a
+              </svg> <span class="mobal-menu__color">+30 96 111 11 11</span>
+              </a
             >
           </li>
-        </ul>
-      </div>
+            </ul>
+            <ul class="mobile-soc">
+              <li class="mobile-soc__list">
+                <a href="" class="mobile-soc__link" >Instagram</a>
+              </li>
+              <li class="mobile-soc__list">
+                <a href="" class="mobile-soc__link">Twitter</a>
+              </li>
+              <li class="mobile-soc__list">
+                <a href="" class="mobile-soc__link" >Facebook</a>
+              </li>
+              <li class="mobile-soc__list">
+                <a href="" class="mobile-soc__link" >LinkedIn</a>
+              </li>
+
+            </ul>
+            <button type="button" class="mobile-menu-close">         
+               <svg class="icon-close" width="18" height="18">
+              <use href="./img/symbol-defs.svg#icon-close-black"></use>
+            </svg>
+  </button>
+
+          </div>
     </header>
     <main block>
       <section class="section block">
@@ -68,7 +95,24 @@
             <li class="galeri-item">
               <a class="galeri-link" href="">
                 <div class="galeri-desc">
+                  <picture>
+                   <source 
+                     srcset="
+                   ./img/img1-deckstop.jpg 1x,
+                   ./img/img1-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img1-tablet-1x.jpg 1x,
+                   ./img/img1-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img1-mobile-1x.jpg 1x,
+                   ./img/img1-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
                   <img src="./img/img1-deckstop.jpg" alt="Портфоліо" width="370" height="294" />
+                  </picture>
                   <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -84,12 +128,29 @@
             <li class="galeri-item">
               <a href="" class="galeri-link">
                 <div class="galeri-desc">
+                  <picture>
+                   <source 
+                     srcset="
+                   ./img/img2-deckstop.jpg 1x,
+                   ./img/img2-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img2-tablet-1x.jpg 1x,
+                   ./img/img2-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img2-mobile-1x.jpg 1x,
+                   ./img/img2-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
                   <img
                     src="./img/img2-deckstop.jpg"
                     alt="Два чоловіка грає у баскетбол"
                     width="370"
                     height="294"
                   />
+                  </picture>
                   <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -106,12 +167,29 @@
             <li class="galeri-item">
               <a href="" class="galeri-link">
                 <div class="galeri-desc">
+                  <picture>
+                   <source 
+                     srcset="
+                   ./img/img3-deckstop.jpg 1x,
+                   ./img/img3-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img3-tablet-1x.jpg 1x,
+                   ./img/img3-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img3-mobile-1x.jpg 1x,
+                   ./img/img3-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
                   <img
                     src="./img/img3-deckstop.jpg"
                     alt="Емблема ресторану форель"
                     width="370"
                     height="294"
                   />
+                  </picture>
                   <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -128,7 +206,26 @@
             <li class="galeri-item">
               <a href="" class="galeri-link">
                <div class="galeri-desc">
-                <img src="./img/img4-deckstop.jpg" alt="Наушники" width="370" height="294" />                  <p class="galeri-desc-text">
+                <picture>
+                  <source 
+                     srcset="
+                   ./img/img4-deckstop.jpg 1x,
+                   ./img/img4-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img4-tablet-1x.jpg 1x,
+                   ./img/img4-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img4-mobile-1x.jpg 1x,
+                   ./img/img4-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
+                <img src="./img/img4-deckstop.jpg" alt="Наушники" width="370" height="294" />  
+
+                </picture>
+                      <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
@@ -144,7 +241,24 @@
             <li class="galeri-item">
               <div class="galeri-desc">
                 <a href="" class="galeri-link">
+                  <picture>
+                  <source 
+                     srcset="
+                   ./img/img5-deckstop.jpg 1x,
+                   ./img/img5-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img5-tablet-1x.jpg 1x,
+                   ./img/img5-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img5-mobile-1x.jpg 1x,
+                   ./img/img5-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
                 <img src="./img/img5-deckstop.jpg" alt="Дві коробки" width="370" height="294" />        
+                  </picture>
                           <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -160,7 +274,24 @@
             <li class="galeri-item">
               <a href="" class="galeri-link">
                  <div class="galeri-desc">
+                  <picture>
+                  <source 
+                     srcset="
+                   ./img/img6-deckstop.jpg 1x,
+                   ./img/img6-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img6-tablet-1x.jpg 1x,
+                   ./img/img6-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img6-mobile-1x.jpg 1x,
+                   ./img/img6-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
                 <img src="./img/img6-deckstop.jpg" alt="Монітор" width="370" height="294" />
+                  </picture>
                 <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -176,7 +307,24 @@
             <li class="galeri-item">
               <a href="" class="galeri-link">
                 <div class="galeri-desc">
+                  <picture>
+                  <source 
+                     srcset="
+                   ./img/img7-deckstop.jpg 1x,
+                   ./img/img7-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img7-tablet-1x.jpg 1x,
+                   ./img/img7-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img7-mobile-1x.jpg 1x,
+                   ./img/img7-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
                 <img src="./img/img7-deckstop.jpg" alt="Розгорнута книга" width="370" height="294" />
+                  </picture>
                 <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -192,7 +340,24 @@
             <li class="galeri-item">
               <a href="" class="galeri-link">
                 <div class="galeri-desc">
+                  <picture>
+                <source 
+                     srcset="
+                   ./img/img8-deckstop.jpg 1x,
+                   ./img/img8-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img8-tablet-1x.jpg 1x,
+                   ./img/img8-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img8-mobile-1x.jpg 1x,
+                   ./img/img8-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
                 <img src="./img/img8-deckstop.jpg" alt="Бірка" width="370" height="294" />
+                  </picture>
                 <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -208,7 +373,24 @@
             <li class="galeri-item">
               <a href="" class="galeri-link">
                 <div class="galeri-desc">
+                  <picture>
+                <source 
+                 srcset="
+                   ./img/img9-deckstop.jpg 1x,
+                   ./img/img9-deckstop-2x.jpg 2x"
+              media="min-width:1200px"/>
+                <source   
+                  srcset="
+                   ./img/img9-tablet-1x.jpg 1x,
+                   ./img/img9-tablet-2x.jpg 2x"
+              media="min-width:768px"/>
+                <source   
+                  srcset="
+                   ./img/img9-mobile-1x.jpg 1x,
+                   ./img/img9-mobile-2x.jpg 2x"
+              media="min-width:480px"/>
                 <img src="./img/img9-deckstop.jpg" alt="Ноутбук в роботі" width="370" height="294" />
+                  </picture>
                 <p class="galeri-desc-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -229,7 +411,7 @@
     <footer id="footer" class="footer section block">
       <div class="container footer-box">
         <div class="footer-contacts">
-          <a href="http://127.0.0.1:5500/index.html" class="logo"
+          <a href="http:/index.html" class="logo"
             >Web<span class="logo-footer">Studio</span></a
           >
           <address class="footer-adress">

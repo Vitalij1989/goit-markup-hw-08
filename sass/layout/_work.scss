@@ -1,21 +1,21 @@
-.container__project{
+.container__project {
   @include for-size(mobile-only) {
-    display: none;}
-
+    display: none;
+  }
 
   @include for-size(tablet-only) {
-    display: none;}
+    display: none;
+  }
 
-    // @include for-size(desktop) {
-    //   display:contents;
-  
-    // }
+  // @include for-size(desktop) {
+  //   display:contents;
+
+  // }
 }
-.project{
+.project {
   display: flex;
   column-gap: 30px;
 }
-
 
 .ptoject__item {
   position: relative;

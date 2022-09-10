@@ -11,6 +11,9 @@
 .section-section--ptop0 {
   padding-top: 0;
   padding-bottom: 0;
+  @include for-size(desktop) {
+    padding-bottom: 94px;
+  }
 }
 .section__azer-background {
   background: #f5f4fa;
