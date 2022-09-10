@@ -413,8 +413,14 @@ footer,
   color: var(--acsent-text-color);
 }
 .auth-nav__link .auth-nav__icon {
-  margin-right: 10px;
-  fill: currentColor;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .auth-nav__link .auth-nav__icon {
+    display: block;
+    margin-right: 10px;
+    fill: currentColor;
+  }
 }
 
 @media screen and (min-width: 480px) {

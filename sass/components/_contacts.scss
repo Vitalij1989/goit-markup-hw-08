@@ -71,8 +71,12 @@
     color: var(--acsent-text-color);
   }
   & .auth-nav__icon {
-    margin-right: 10px;
-    fill: currentColor;
+    display: none;
+    @include for-size(tablet) {
+      display: block;
+      margin-right: 10px;
+      fill: currentColor;
+    }
   }
 }
 .auth-nav__link .mobile-color {
