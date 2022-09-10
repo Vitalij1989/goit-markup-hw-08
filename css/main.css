@@ -269,6 +269,9 @@ footer,
     color: var(--title-text-color);
   }
 }
+.mobal-menu__color:hover, .mobal-menu__color:focus {
+  color: var(--acsent-text-color);
+}
 
 .site-nav {
   display: flex;
