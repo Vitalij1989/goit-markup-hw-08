@@ -1,4 +1,5 @@
 .mobile-menu {
+  z-index: 5;
   @include for-size(mobile-only) {
     position: fixed;
     top: 0;

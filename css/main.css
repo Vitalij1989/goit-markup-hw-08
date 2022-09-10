@@ -152,6 +152,9 @@ footer,
   color: var(--primari-text-color);
 }
 
+.mobile-menu {
+  z-index: 5;
+}
 @media screen and (max-width: 767.98px) {
   .mobile-menu {
     position: fixed;
