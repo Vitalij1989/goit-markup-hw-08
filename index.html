@@ -22,66 +22,65 @@
   <body>
     <header class="header block">
       <div class="container header__container">
-        <a href="" class="logo"
-        >Web<span class="logo__veb">Studio</span></a>
+        <a href="" class="logo">Web<span class="logo__veb">Studio</span></a>
         <!-- <nav class="navigation"> -->
-           </nav>
-              <button type="button" class="modal-open" >
-                <svg class="auth-nav__icon" width="40" height="40">
-                <use href="./img/symbol-defs.svg#icon-burger"></use>
-                  </svg>
-              </button>
-          <div class="mobile-menu">      
-           <ul class="site-nav">
-            <li><a href="./index.html" class="site-nav__link site-nav__link--current">Студія</a></li>
+        <button type="button" class="modal-open">
+          <svg class="auth-nav__icon" width="40" height="40">
+            <use href="./img/symbol-defs.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu">
+          <ul class="site-nav">
+            <li>
+              <a href="./index.html" class="site-nav__link site-nav__link--current">Студія</a>
+            </li>
             <li><a href="./portfolio.html" class="site-nav__link">Портфоліо</a></li>
             <li><a href="#footer" class="site-nav__link">Контакти</a></li>
-            </ul>
-           <ul class="auth-nav">
-          <li>
-            <a href="mailto:info@devstudio.com" class="auth-nav__link">
-              <svg class="auth-nav__icon" width="16" height="12">
-                <use href="./img/symbol-defs.svg#icon-envelope-hover"></use>
-              </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+30961111111" class="auth-nav__link mobile-color">
-              <svg class="auth-nav__icon" width="10" height="16">
-                <use href="./img/symbol-defs.svg#icon-smartphone"></use>
-              </svg> <span class="mobal-menu__color">+30 96 111 11 11</span>
-              </a
-            >
-          </li>
-            </ul>
-            <ul class="mobile-soc">
-              <li class="mobile-soc__list">
-                <a href="" class="mobile-soc__link" >Instagram</a>
-              </li>
-              <li class="mobile-soc__list">
-                <a href="" class="mobile-soc__link">Twitter</a>
-              </li>
-              <li class="mobile-soc__list">
-                <a href="" class="mobile-soc__link" >Facebook</a>
-              </li>
-              <li class="mobile-soc__list">
-                <a href="" class="mobile-soc__link" >LinkedIn</a>
-              </li>
-
-            </ul>
-            <button type="button" class="mobile-menu-close">         
-               <svg class="icon-close" width="18" height="18">
+          </ul>
+          <ul class="auth-nav">
+            <li>
+              <a href="mailto:info@devstudio.com" class="auth-nav__link">
+                <svg class="auth-nav__icon" width="16" height="12">
+                  <use href="./img/symbol-defs.svg#icon-envelope-hover"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+30961111111" class="auth-nav__link mobile-color">
+                <svg class="auth-nav__icon" width="10" height="16">
+                  <use href="./img/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                <span class="mobal-menu__color">+30 96 111 11 11</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="mobile-soc">
+            <li class="mobile-soc__list">
+              <a href="" class="mobile-soc__link">Instagram</a>
+            </li>
+            <li class="mobile-soc__list">
+              <a href="" class="mobile-soc__link">Twitter</a>
+            </li>
+            <li class="mobile-soc__list">
+              <a href="" class="mobile-soc__link">Facebook</a>
+            </li>
+            <li class="mobile-soc__list">
+              <a href="" class="mobile-soc__link">LinkedIn</a>
+            </li>
+          </ul>
+          <button type="button" class="mobile-menu-close">
+            <svg class="icon-close" width="18" height="18">
               <use href="./img/symbol-defs.svg#icon-close-black"></use>
             </svg>
-  </button>
-
-          </div>
+          </button>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hero block">
         <div class="container">
-          <h1 class="hero__title">Ефективні рішення для</br> вашого бізнесу</h1>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero__btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
@@ -141,47 +140,34 @@
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="project">
             <li class="ptoject__item">
-              <source   
-                  srcset="
-                   ./img/ebout.1-deckstop.jpg 1x,
-                   ./img/ebout.1-deckstop-2x.jpg 2x
-              "
-              media="min-width:1200px"/>
-              <img 
-              src="./img/ebout.1-deckstop.jpg" 
-              alt="макбук" 
-              width="370" 
-              height="294"
-              />
+              <picture>
+                <source
+                  srcset="./img/ebout.1-deckstop.jpg 1x, ./img/ebout.1-deckstop-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <img src="./img/ebout.1-deckstop.jpg" alt="макбук" />
+              </picture>
               <p class="project__text">Десктопні додатки</p>
             </li>
             <li class="ptoject__item">
-              <source   
-                  srcset="
-                   ./img/ebout.1-deckstop.jpg 1x,
-                   ./img/ebout.1-deckstop-2x.jpg 2x
-              "
-              media="min-width:1200px"/>
-              <img 
-              src="./img/ebout.2-deckstop.jpg" 
-              alt="компютер" 
-              width="370" 
-              height="294" />
-
+              <picture>
+                <source
+                  srcset="./img/ebout.1-deckstop.jpg 1x, ./img/ebout.1-deckstop-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <img src="./img/ebout.2-deckstop.jpg" alt="компютер" />
+              </picture>
               <p class="project__text">Мобільні додатки</p>
             </li>
             <li class="ptoject__item">
-                <source   
-                  srcset="
-                   ./img/ebout.3-deckstop.jpg 1x,
-                   ./img/ebout.3-deckstop-2x.jpg 2x
-              "
-              media="min-width:1200px"/>
+              <picture>
+                <source
+                  srcset="./img/ebout.3-deckstop.jpg 1x, ./img/ebout.3-deckstop-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
 
-              <img src="./img/ebout.3-deckstop.jpg" 
-              alt="планшет" 
-              width="370" 
-              height="294" />
+                <img src="./img/ebout.3-deckstop.jpg" alt="планшет" />
+              </picture>
               <p class="project__text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -190,29 +176,23 @@
       <section class="section section__azer-background block">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
-          <ul class="comand ">
+          <ul class="comand">
             <li class="comand__item">
               <picture>
-                <source   
-                  srcset="
-                   ./img/fase1-deckstop.jpg 1x,
-                   ./img/fase1-deckstop-2x.jpg 2x"
-              media="min-width:1200px"/>
-                <source   
-                  srcset="
-                   ./img/fase1-tablet-1x.jpg 1x,
-                   ./img/fase1-tablet-2x.jpg 2x"
-              media="min-width:768px"/>
-                <source   
-                  srcset="
-                   ./img/fase1-mobile-1x.jpg 1x,
-                   ./img/fase1-mobile-2x.jpg 2x"
-              media="min-width:480px"/>
+                <source
+                  srcset="./img/fase1-deckstop.jpg 1x, ./img/fase1-deckstop-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./img/fase1-tablet-1x.jpg 1x, ./img/fase1-tablet-2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./img/fase1-mobile-1x.jpg 1x, ./img/fase1-mobile-2x.jpg 2x"
+                  media="(max-width:768px)"
+                />
 
-              <img src="./img/fase1-deckstop.jpg" 
-              alt="Ігор Дем'яненко" 
-              width="270" 
-              height="260" />
+                <img src="./img/fase1-deckstop.jpg" alt="Ігор Дем'яненко" />
               </picture>
               <div class="comand__box">
                 <h3 class="comand__title">Ігор Дем'яненко</h3>
@@ -247,23 +227,19 @@
             </li>
             <li class="comand__item">
               <picture>
-                  <source   
-                  srcset="
-                   ./img/fase2-deckstop.jpg 1x,
-                   ./img/fase2-deckstop-2x.jpg 2x"
-              media="min-width:1200px"/>
-                <source   
-                  srcset="
-                   ./img/fase2-tablet-1x.jpg 1x,
-                   ./img/fase2-tablet-2x.jpg 2x"
-              media="min-width:768px"/>
-                <source   
-                  srcset="
-                   ./img/fase2-mobile-1x.jpg 1x,
-                   ./img/fase2-mobile-2x.jpg 2x"
-              media="min-width:480px"/>
-
-              <img src="./img/fase2-deckstop.jpg" alt="Ольга Рєпіна" width="270" height="260" />
+                <source
+                  srcset="./img/fase2-deckstop.jpg 1x, ./img/fase2-deckstop-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./img/fase2-tablet-1x.jpg 1x, ./img/fase2-tablet-2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./img/fase2-mobile-1x.jpg 1x, ./img/fase2-mobile-2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./img/fase2-deckstop.jpg" alt="Ольга Рєпіна" />
               </picture>
               <div class="comand__box">
                 <h3 class="comand__title">Ольга Рєпіна</h3>
@@ -298,23 +274,19 @@
             </li>
             <li class="comand__item">
               <picture>
-                  <source   
-                  srcset="
-                   ./img/fase3-deckstop.jpg 1x,
-                   ./img/fase3-deckstop-2x.jpg 2x"
-              media="min-width:1200px"/>
-                <source   
-                  srcset="
-                   ./img/fase3-tablet-1x.jpg 1x,
-                   ./img/fase3-tablet-2x.jpg 2x"
-              media="min-width:768px"/>
-                <source   
-                  srcset="
-                   ./img/fase3-mobile-1x.jpg 1x,
-                   ./img/fase3-mobile-2x.jpg 2x"
-              media="min-width:480px"/>
-              <img src="./img/fase3-deckstop.jpg" alt="Микола Тарасов" width="270" height="260" />
-
+                <source
+                  srcset="./img/fase3-deckstop.jpg 1x, ./img/fase3-deckstop-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./img/fase3-tablet-1x.jpg 1x, ./img/fase3-tablet-2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./img/fase3-mobile-1x.jpg 1x, ./img/fase3-mobile-2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./img/fase3-deckstop.jpg" alt="Микола Тарасов" />
               </picture>
               <div class="comand__box">
                 <h3 class="comand__title">Микола Тарасов</h3>
@@ -349,22 +321,19 @@
             </li>
             <li class="comand__item">
               <picture>
-                  <source   
-                  srcset="
-                   ./img/fase4-deckstop.jpg 1x,
-                   ./img/fase4-deckstop-2x.jpg 2x"
-              media="min-width:1200px"/>
-                <source   
-                  srcset="
-                   ./img/fase4-tablet-1x.jpg 1x,
-                   ./img/fase4-tablet-2x.jpg 2x"
-              media="min-width:768px"/>
-                <source   
-                  srcset="
-                   ./img/fase4-mobile-1x.jpg 1x,
-                   ./img/fase4-mobile-2x.jpg 2x"
-              media="min-width:480px"/>
-              <img src="./img/fase4-deckstop.jpg" alt="Михайло Єрмаков" width="270" height="260" />
+                <source
+                  srcset="./img/fase4-deckstop.jpg 1x, ./img/fase4-deckstop-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./img/fase4-tablet-1x.jpg 1x, ./img/fase4-tablet-2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./img/fase4-mobile-1x.jpg 1x, ./img/fase4-mobile-2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./img/fase4-deckstop.jpg" alt="Михайло Єрмаков" />
               </picture>
               <div class="comand__box">
                 <h3 class="comand__title">Михайло Єрмаков</h3>
@@ -404,42 +373,42 @@
         <div class="container">
           <h2 class="section__title">Постійні клієнти</h2>
           <ul class="clients">
-            <li>
+            <li class="clients__item">
               <a class="clients__link" href="#">
                 <svg width="106" height="60">
                   <use href="./img/symbol-defs.svg#icon-Logo"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a class="clients__link" href="#">
                 <svg width="106" height="60">
                   <use href="./img/symbol-defs.svg#icon-Logo-1"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a class="clients__link" href="#">
                 <svg width="106" height="60">
                   <use href="./img/symbol-defs.svg#icon-Logo-2"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a class="clients__link" href="#">
                 <svg width="106" height="60">
                   <use href="./img/symbol-defs.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
-            <li >
+            <li class="clients__item">
               <a class="clients__link" href="#">
                 <svg width="106" height="60">
                   <use href="./img/symbol-defs.svg#icon-Logo-4"></use>
                 </svg>
               </a>
             </li>
-            <li >
+            <li class="clients__item">
               <a class="clients__link" href="#">
                 <svg width="106" height="60">
                   <use href="./img/symbol-defs.svg#icon-Logo-5"></use>
@@ -453,9 +422,7 @@
     <footer id="footer" class="footer section block">
       <div class="container footer-box">
         <div class="footer-contacts">
-          <a href="./index.html" class="logo"
-            >Web<span class="logo-footer">Studio</span></a
-          >
+          <a href="./index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
           <address class="footer-adress">
             <ul class="address-list">
               <li>
@@ -528,38 +495,43 @@
           <label class="modal-form-label">
             Ім'я
             <input type="text" name="username" class="modal-form-imput" />
-                <svg class="modal-icon" width="18" height="18">
-                <use href="./img/symbol-defs.svg#icon-person"></use>
-
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./img/symbol-defs.svg#icon-person"></use>
+            </svg>
           </label>
-            <label class="modal-form-label">
+          <label class="modal-form-label">
             Телефон
             <input type="tel" name="tel" class="modal-form-imput" />
-              <svg class="modal-icon" width="18" height="18">
-                <use href="./img/symbol-defs.svg#icon-phone18"></use>
-
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./img/symbol-defs.svg#icon-phone18"></use>
+            </svg>
           </label>
           <label class="modal-form-label">
             Пошта
             <input type="email" name="email" class="modal-form-imput" />
-                <svg class="modal-icon" width="18" height="18">
-                <use href="./img/symbol-defs.svg#icon-email"></use>
-
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./img/symbol-defs.svg#icon-email"></use>
+            </svg>
           </label>
           <label class="modal-coment-last">
             Коментар
-            <textarea name="comment" placeholder="Введіть текст"  class="modal-form-comment"></textarea>
+            <textarea
+              name="comment"
+              placeholder="Введіть текст"
+              class="modal-form-comment"
+            ></textarea>
           </label>
           <label class="modal-checkbox">
-            <input type="checkbox" name="umovu" class="modal-checkbox-imput">
-            <span class="checkbox-icon" >
+            <input type="checkbox" name="umovu" class="modal-checkbox-imput" />
+            <span class="checkbox-icon">
               <svg class="checkbox-icon-svg" width="16" height="15">
-              <use href="./img/symbol-defs.svg#icon-vector"></use>
+                <use href="./img/symbol-defs.svg#icon-vector"></use>
+              </svg>
             </span>
             Погоджуюся з розсилкою та приймаю
             <a href="" class="modal-checkbox-link"> Умови договору</a>
           </label>
-          <button  type="submit" class="checkbox-buttom">Відправити</button>
+          <button type="submit" class="checkbox-buttom">Відправити</button>
         </form>
         <button type="button" class="modal-close" data-modal-close>
           <svg class="icon-close" width="18" height="18">
@@ -570,6 +542,5 @@
     </div>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
-
   </body>
 </html>

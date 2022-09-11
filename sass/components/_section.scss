@@ -20,14 +20,15 @@
 }
 
 .section__title {
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
   text-align: center;
 
-  @include for-size(decstop) {
+  @include for-size(desktop) {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
   }

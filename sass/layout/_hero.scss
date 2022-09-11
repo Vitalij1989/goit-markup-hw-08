@@ -6,9 +6,9 @@
   margin-left: auto;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: var(--bd-gradient), url(../../img/hero-mobile-1x.jpg);
+  background-image: var(--bd-gradient), url(../img/hero-mobile-1x.jpg);
   @include retina {
-    background-image: var(--bd-gradient), url(../../img/hero-mobile-2x.jpg);
+    background-image: var(--bd-gradient), url(../img/hero-mobile-2x.jpg);
   }
   background-color: #c4c4c4;
   background-position: center;

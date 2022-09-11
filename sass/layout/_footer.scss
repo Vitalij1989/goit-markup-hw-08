@@ -15,9 +15,9 @@
   @include for-size(tablet) {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     flex-wrap: wrap;
     align-items: baseline;
+    justify-content: space-around;
   }
 
   @include for-size(desktop) {
@@ -30,7 +30,12 @@
 }
 
 .footer-contacts {
-  flex-grow: 1;
+  @include for-size(mobile-only) {
+    margin-bottom: 60px;
+  }
+  @include for-size(desktop) {
+    flex-grow: 1;
+  }
 }
 
 .logo-footer {
@@ -55,11 +60,11 @@
   margin-bottom: 60px;
 
   @include for-size(tablet) {
-    flex-grow: 1;
+    margin-bottom: 0;
   }
   @include for-size(desktop) {
     margin-left: 70px;
-    margin-bottom: 60px;
+    flex-grow: 1;
   }
 }
 
@@ -90,7 +95,6 @@
 
 .footer-adress {
   margin-top: 20px;
-  margin-bottom: 60px;
 
   @include for-size(desktop) {
     margin-bottom: 0px;
@@ -119,7 +123,9 @@
   align-items: flex-end;
   color: var(--primary-white-color);
   width: 100%;
-
+  @include for-size(tablet-only) {
+    margin-top: 60px;
+  }
   @include for-size(desktop) {
     margin-left: 93px;
   }
@@ -139,7 +145,7 @@
 
   @include for-size(desktop) {
     display: flex;
-    width: 570px;
+    // width: 570px;
     flex-direction: row;
   }
 }
@@ -158,6 +164,11 @@
   padding-left: 16px;
   outline: none;
   margin-bottom: 20px;
+  @include for-size(tablet-only) {
+    width: 450px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 
   @include for-size(desktop) {
     margin-bottom: 0;

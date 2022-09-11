@@ -1,19 +1,25 @@
 .clients {
-  width: 100%;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  justify-content: center;
   color: var(--title-text-color);
-  
+  @include for-size(desktop) {
+    flex-wrap: nowrap;
+  }
 }
-
+.clients__item {
+  height: 92px;
+  flex-basis: calc((100% - 30px) / 2);
+  @include for-size(tablet) {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
 .clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 210px;
-  height: 92px;
+  width: 100%;
+  height: 100%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
@@ -29,7 +35,6 @@
     border-color: var(--acsent-text-color);
   }
   @include for-size(desktop) {
-    width: 170px;
-    height: 92px;
-  }  
+    width: 100%;
+  }
 }

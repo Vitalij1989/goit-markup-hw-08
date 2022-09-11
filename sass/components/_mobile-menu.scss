@@ -1,6 +1,7 @@
 .mobile-menu {
-  z-index: 5;
   @include for-size(mobile-only) {
+    z-index: 5;
+
     position: fixed;
     top: 0;
     left: 0;
@@ -53,6 +54,9 @@
 }
 .mobile-soc {
   display: flex;
+  @include for-size(tablet) {
+    display: none;
+  }
 }
 
 .mobile-soc__list:not(:last-child) {
