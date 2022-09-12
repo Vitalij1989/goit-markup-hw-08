@@ -59,8 +59,8 @@
 }
 
 .galeri-item {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  // height: 100%;
 
   @include for-size(tablet) {
     // width: 354px;
