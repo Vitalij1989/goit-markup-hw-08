@@ -856,6 +856,11 @@ footer,
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .main-title {
+    font-size: 17px;
+  }
+}
 
 .main-text {
   font-weight: 400;
