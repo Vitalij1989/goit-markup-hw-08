@@ -18,7 +18,7 @@
   @include for-size(tablet) {
     background-image: var(--bd-gradient), url(../img/hero-tablet-1x.jpg);
     @include retina {
-      background-image: var(--bd-gradient), url(../../img/hero-tablet-2x.jpg);
+      background-image: var(--bd-gradient), url(../img/hero-tablet-2x.jpg);
     }
   }
 
@@ -28,7 +28,7 @@
     max-width: 1600px;
     background-image: var(--bd-gradient), url(../img/fons-hero-deckstop.jpg);
     @include retina {
-      background-image: var(--bd-gradient), url(../../img/fons-hero-deckstop-2x.jpg);
+      background-image: var(--bd-gradient), url(../img/fons-hero-deckstop-2x.jpg);
     }
   }
 }
