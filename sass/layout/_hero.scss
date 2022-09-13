@@ -43,6 +43,9 @@
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  @include for-size(tablet-only) {
+    max-width: 360px;
+  }
   // width: 360px;
 
   @include for-size(desktop) {
